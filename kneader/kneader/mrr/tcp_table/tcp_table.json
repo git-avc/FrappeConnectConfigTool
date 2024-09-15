@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-25 16:27:32.754976",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "slave_device_name",
+  "unit_id",
+  "ip_address",
+  "port_number",
+  "starting_address",
+  "function_code",
+  "datatype",
+  "length",
+  "data_format",
+  "tag_name",
+  "description",
+  "event_report"
+ ],
+ "fields": [
+  {
+   "fieldname": "unit_id",
+   "fieldtype": "Data",
+   "label": "Unit ID"
+  },
+  {
+   "fieldname": "starting_address",
+   "fieldtype": "Data",
+   "label": "Starting Address"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Data",
+   "label": "Length"
+  },
+  {
+   "fieldname": "datatype",
+   "fieldtype": "Select",
+   "label": "Datatype",
+   "options": "boolean\nint\nshort int\nlong\nunsigned int\nunsigned short\nunsigned long\nfloat32\nfloat64"
+  },
+  {
+   "fieldname": "function_code",
+   "fieldtype": "Select",
+   "label": "Function Code",
+   "options": "Read Coil Status\nRead Discrete Input\nRead Holding Registers\nRead Input Registers\nWrite Single Coil\nWrite Single Register\nWrite Multiple Coils\nWrite Multiple Registers"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "fieldname": "port_number",
+   "fieldtype": "Data",
+   "label": "Port Number"
+  },
+  {
+   "fieldname": "data_format",
+   "fieldtype": "Select",
+   "label": "Data Format",
+   "options": "Big Endian\nByte Swap\nWord Swap\nIEEE-754 Floating Point"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "tag_name",
+   "fieldtype": "Data",
+   "label": "Tag  Name"
+  },
+  {
+   "fieldname": "slave_device_name",
+   "fieldtype": "Data",
+   "label": "Slave Device Name"
+  },
+  {
+   "fieldname": "event_report",
+   "fieldtype": "Select",
+   "label": "Event Report",
+   "options": "Enable\nDisable"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-11 21:00:31.711548",
+ "modified_by": "Administrator",
+ "module": "SppBiliing",
+ "name": "TCP Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

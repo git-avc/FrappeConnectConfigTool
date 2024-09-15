@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-25 16:27:37.378782",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "device_name",
+  "polling_time",
+  "time_out",
+  "no_of_retrieve",
+  "column_break_ptjkw",
+  "section_break_ndytz",
+  "tcp_table",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "polling_time",
+   "fieldtype": "Data",
+   "label": "Polling Time(ms)"
+  },
+  {
+   "fieldname": "section_break_ndytz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ptjkw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Modbus TCP Device",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "time_out",
+   "fieldtype": "Data",
+   "label": "Time Out(ms)"
+  },
+  {
+   "fieldname": "no_of_retrieve",
+   "fieldtype": "Data",
+   "label": "No.of Retries"
+  },
+  {
+   "fieldname": "tcp_table",
+   "fieldtype": "Table",
+   "label": "TCP Slave",
+   "options": "TCP Table"
+  },
+  {
+   "fieldname": "device_name",
+   "fieldtype": "Select",
+   "label": "Device Name",
+   "options": "PLC 1\nPLC 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-05 19:14:06.472377",
+ "modified_by": "Administrator",
+ "module": "SppBiliing",
+ "name": "Modbus TCP Device",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

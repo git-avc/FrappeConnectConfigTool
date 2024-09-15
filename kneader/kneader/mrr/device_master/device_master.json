@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-30 13:05:12.452770",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ip_address",
+  "port_number",
+  "column_break_cjklz",
+  "username",
+  "password",
+  "section_break_spy2g",
+  "ping",
+  "section_break_3xceh",
+  "column_break_fus8o",
+  "column_break_f5d0d",
+  "download",
+  "column_break_10tlb",
+  "upload",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "fieldname": "port_number",
+   "fieldtype": "Data",
+   "label": "Port Number"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "download",
+   "fieldtype": "Button",
+   "label": "Download"
+  },
+  {
+   "fieldname": "upload",
+   "fieldtype": "Button",
+   "label": "Upload"
+  },
+  {
+   "fieldname": "ping",
+   "fieldtype": "Button",
+   "label": "Ping"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Device Master",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_cjklz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_spy2g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_3xceh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_10tlb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_fus8o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_f5d0d",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-30 13:17:42.203790",
+ "modified_by": "Administrator",
+ "module": "SppBiliing",
+ "name": "Device Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
